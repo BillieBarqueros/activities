@@ -1,0 +1,128 @@
+<!doctype html>
+</html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie-edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   
+     <script>
+        $(document).ready(function(){
+          $('.modal').modal();
+        });
+       </script>
+  
+           <script>
+        $(document).ready(function(){
+          $('.carousel').carousel();
+        });
+      </script>
+  
+      <script>
+        $(document).ready(function(){
+          $('.materialboxed').materialbox();
+        });
+      </script>
+  
+      <script>
+      $(document).ready(function(){
+        $('.slider').slider({
+          indicator: true,
+          height: 550,
+          duration: 5100,
+          interval: 3100,
+  
+        });
+        });
+      </script>
+
+    <title>"Static Template"</title>
+</head>
+   <body>
+<nav> 
+   <div class="nav-wrapper purple">
+    <div class="brand-logo">Logo</div>
+    <ul class="right hide-on-med-and-down">
+        <li><a href="#">Settings</a></li>
+        <li><a href="#">More</a></li>
+        <li><a href="#">Watch</a></li>
+    </ul>
+    </div>
+
+<div class="container">
+
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="sky.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Focus</h3>
+              <h5 class="blossom">Prioritize your peace</h5>
+            </div>
+          </li>
+          <li>
+            <img src="purple.jpg" <!-- random image -->
+            <div class="caption center-align">
+              <h3>Dream, Plan, Do</h3>
+              <h5 class="white-text">"One day at a time"</h5>
+            </div>
+          </li>
+          <li>
+            <img src="bee.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Remarque</h3>
+              <h5 class="black-text text-lighten-3">“Pour ce qui te rend heureux"</h5>
+            </div>
+          </li>
+          <li>
+            <img src="water.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3 style="color: speachpuff;">Eunoia</h3>
+              <h5 class="purple">"A pure and well-balanced mind, a good spirit. 'BEAUTIFUL THINGKING'</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+<!--Modal-->
+<div class="center">
+    <h4>wanna know more</h4>
+    <a href="#modal1" class="btn modal-trigger purple"><i class="material-icons right">send</i>click</a>
+    >
+    <div id="modal1" class="modal green">
+        <div class="modal-content">
+            <h5> Bon Ciel</h5>
+            <p>“LE TEMPS EST PRECIEUX GASPILLE LE JUDICIEUSEMENT"
+
+            </p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close btn">Close</a>
+        </div>
+    </div>
+</div>
+        <!--Light Box-->
+
+    <div class="row">
+        <div class="col s2 m6">
+            <img src="blue.jpg" width="550" alt="" class="responsive-img materialboxed">
+        </div>
+        <div class="col s2 m6">
+            <img src="flower.jpg" width="550" alt="" class="responsive-img materialboxed">
+        </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+</body>
+</html>
